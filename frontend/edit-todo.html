@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Todo</title>
+    <link rel="stylesheet" href="edit-todo.css">
+</head>
+<body>
+  <nav class="navigation">
+    <a href="login.html">Log In</a> 
+    <a href="todo-ist.html">Todo List</a> 
+    <a href="edit-todo.html">Edit Todo</a>
+  </nav>
+    <div class="edit-container">
+        <h2>Edit Todo</h2>
+        <form action="/edit-todo" method="POST">
+            <input type="text" name="title" placeholder="Title" required>
+            <textarea name="description" placeholder="Description" rows="4"></textarea>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+</body>
+</html>
